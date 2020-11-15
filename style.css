@@ -1,0 +1,167 @@
+
+/* Set a default font family for all elements */
+body {
+	background-color: #ffbf80;
+	font-family: 'Arial';
+}
+
+h1 {
+	color: #862d2d;
+}
+
+table.scoreboard tr td {
+	text-align: center;
+	min-width: 100px;
+	color: #862d2d;
+	font-weight: bold;
+}
+
+/* Define gradient for the board (table) */
+table.board {
+	background: #862d2d; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#862d2d, #c65353); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#862d2d, #c65353); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#862d2d, #c65353); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#862d2d, #c65353); /* Standard syntax */
+	border-radius: 50px;
+}
+
+/* The width and height are set based on the size of icons */
+table.board tr td {
+;	text-align: left;
+	height: 100px; 
+	width: 100px;
+	cursor: pointer;
+	font-size: 0;
+	border: 1px solid #aab9ff;
+	border-radius: 35px;
+}
+
+/* This class is used by the winnerMessageBox and the playAgainButton */
+.hiddenMessages {
+	background: #862d2d; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#862d2d, #c65353); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#862d2d, #c65353); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#862d2d, #c65353); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#862d2d, #c65353); /* Standard syntax */
+	color: black;
+	border: 0px solid black;
+	border-radius: 50px;
+	margin: 20px;
+	padding: 5px;
+	display: none;
+	font-size: 20px;
+}
+
+/* Small changes specific for the winnerMessageBox */
+#winnerMessageBox {
+	width: 300px;
+}
+
+/* Small changes specific for the playAgainButton */
+#playAgainButton {
+	cursor: pointer;
+	padding: 5px 50px;
+	font-family: 'Times New Roman';
+}
+
+/* Change the color */
+#playAgainButton:hover {
+	background: #c65353; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#c65353, #862d2d); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#c65353, #862d2d); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#c65353, #862d2d); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#c65353, #862d2d); /* Standard syntax */
+}
+
+/* The height should be set based on the content */
+footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	padding-top: 10px;
+}
+
+/* Change the heart icon color to red */
+
+
+/* Remove the links underline and set its color to #862d2d */
+
+#difficulty-select {	
+	background: #862d2d; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#862d2d, #c65353); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#862d2d, #c65353); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#862d2d, #c65353); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#862d2d, #c65353); /* Standard syntax */
+	color: black;
+	border: 0px solid black;
+	border-radius: 5px;
+	padding: 2px;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+}
+
+#difficulty-select option {
+   color: black;
+}
+
+#difficulty-select:not(:checked) {
+   color: black;
+}
+
+#difficulty-label {
+	color: #862d2d;
+	font-size: 20px;
+}
+
+#difficulty-block {
+	margin-bottom: 10px;
+}
+.buttons {
+    width: 400px;
+    margin: 50px auto;
+    padding: 10px 20px;
+    text-align: center;
+
+    box-shadow: 0 0 3px #cccccc;
+}
+
+button {
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    padding: 0;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    transition: transform 0.4s ease-in-out;
+}
+
+button:active {
+  top: 1px;
+  box-shadow: none;
+}
+
+.icon {
+    position: absolute;
+    left: 20px;
+}
+.btn-brown {
+    background: #c65353;
+
+}
+.btn-brown .icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.4s ease-in-out;
+}
+.btn-brpwn:hover .icon {
+    transform: rotate(360deg) scale(1.2);
+}
