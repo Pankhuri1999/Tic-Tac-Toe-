@@ -26,8 +26,8 @@ var scorePlayer2 = 0;
 var startingPlayer = player;
 
 // The path for the image for the players
-const imgPlayer1 = 'url("static/img/pic13.png")';
-const imgPlayer2 = 'url("static/img/pic23.png")';
+const imgPlayer1 = 'url("pic13.png")';
+const imgPlayer2 = 'url("pic23.png")';
 
 var board = document.getElementById("board");
 var scoreboard = document.getElementById("scoreboard");
