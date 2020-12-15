@@ -1,9 +1,4 @@
 
-// ####################################################
-// Define some global variables and constants
-// Note: As we are providing the option to only play
-// versus robot the player2 will be always the robot
-// ####################################################
 
 // Multidimensional array used to store the positions already selected
 var positions = [
